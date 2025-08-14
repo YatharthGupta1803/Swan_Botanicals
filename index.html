@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="slideshow.js"></script>
+    <title>Swan Botanicals</title>
+        
+</head>
+<body>
+
+
+    <div id="navb">
+        <div style="display:flex; align-items:center; gap:8px;">
+            <h1 id="logo_n">Swan Botanicals</h1>
+        </div>
+    
+        <nav>
+            <a href="#hero-section">Home</a>
+            <a href="#power-of-botanicals">About</a>
+            <a href="#bestselling-botanicals">Shop</a>
+            <a href="#bestselling-botanicals">Product Gallery</a>
+            <a href="#footer">Contact</a>
+            <div id="menu-toggle">☰</div>
+        </nav>
+    
+        <div class="nav_icons">
+            <img src="static/div.png">
+        </div>
+    </div>
+
+    <section class="hero-section">
+        <div class="hero_t">
+            <h1 class="heading">99% Botanical, <br>0% Synthetic</h1>
+            <br>
+            <p>Nurture your skin with the power of nature, <br> crafted with a mother's loving care.</p>
+            <div id="but">
+                <button class="sc"><a href="#bestselling-botanicals" style="color: #F9F4E3;">Shop Collection</a></button>
+                <button class="os"><a href="#subhero" style="color: #F9F4E3;">Our Story</a></button>
+            </div>
+        
+        </div>
+        <div id="hero_section" class="hero">
+            <div>
+            <div class="slideshow-container">
+          
+              <!-- Slides -->
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="./static/hero_1.png" style="width:100%">
+              </div>
+          
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="./static/Screenshot 2025-08-14 at 4.07.28 PM.png" style="width:100%">
+              </div>
+          
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="./static/Screenshot 2025-08-14 at 4.07.45 PM.png" style="width:100%">
+              </div>
+          
+            </div>
+            </div>
+          
+            <!-- Dots -->
+            <div style="text-align:center; margin-top: 10px;">
+              <span class="dot" onclick="currentSlide(1)"></span>
+              <span class="dot" onclick="currentSlide(2)"></span>
+              <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+          </div>
+          
+      
+
+      </div>
+      <br>
+      
+
+    </section>
+
+    <section id="subhero" class="subhero" style="background: linear-gradient(90deg, #B0DAA7 0.13%, #DDEFD8 52.41%);">
+        <h1>Our Nurturing Philosophy</h1>
+        <p>Inspired by nature's wisdom and a mother's intuition, we create skincare that <br> truly cares for you.</p>
+        <section class="widget">
+            <div class="bp" >
+                <div class="icon-circle" id="sq1"> <img src="./static/Frame.svg"></div>
+                <div class="icon1"></div>
+                <h2 class="sq1t">Botanical Purity</h2>
+                <p>We harness the power of <br> plants with ingredients you <br> can pronounce and trust.</p>
+            </div>
+            <div class="mc">
+                <div class="icon-circle" id="sq2"><img src="./static/hearticon.svg"></div>
+                <div class="icon2"></div>
+                <h2 class="sq2t">Maternal Care</h2>
+                <p>Every formula is created with <br> the same care a mother gives <br> to her child.</p>
+
+            </div>
+            <div class="scc">
+                <div class="icon-circle" id="sq3"><img src="./static/beaker.svg"></div>
+                <div class="icon3"></div>
+                <h2 class="sq3t">Scientific Credibility</h2>
+                <p>Nature-powered formulas,<br> validated by science for real,<br> visible results.</p>
+
+            </div>
+            <div class="sus">
+                <div class="icon-circle" id="sq4"><img src="./static/recycle.svg"></div>
+                <div class="icon4"></div>
+                <h2 class="sq4t">Sustainability</h2>
+                <p>Eco-conscious practices from <br> sourcing to packaging, caring <br> for our planet.</p>
+
+            </div>
+            
+
+        </section>
+    </section>
+
+
+
+
+    <section id="bestselling-botanicals" class="bestselling-section">
+        <div class="bestselling-header">
+          <div>
+            <h2>Bestselling Botanicals</h2>
+            <p>Discover our most loved formulas, crafted with nature's finest ingredients.</p>
+          </div>
+          <a href="#" class="view-all">View all products →</a>
+        </div>
+      
+        <div class="product-grid">
+          <!-- Product Card 1 -->
+          <div class="product-card">
+            <img src="./static/conditioner.png" alt="Gloha Conditioner">
+            <h3>Gloha Conditioner</h3>
+            <p class="subtitle">Swan Botanicals Shampoo</p>
+            <div class="rating">
+              <span class="stars">★★★★☆</span>
+              <span class="count">(128)</span>
+            </div>
+            <button class="add-btn">+</button>
+          </div>
+      
+          <!-- Product Card 2 -->
+          <div class="product-card">
+            <img src="./static/shampoo.png" alt="Gloha Shampoo">
+            <h3>Gloha Shampoo</h3>
+            <p class="subtitle">Swan Botanicals Shampoo</p>
+            <div class="rating">
+              <span class="stars">★★★★☆</span>
+              <span class="count">(128)</span>
+            </div>
+            <button class="add-btn">+</button>
+          </div>
+      
+          <!-- Product Card 3 -->
+          <div class="product-card">
+            <img src="./static/oil.png" alt="Gloha Shampoo Spray">
+            <h3>Gloha Hair Oil</h3>
+            <p class="subtitle">Swan Botanicals Hair Oil </p>
+            <div class="rating">
+              <span class="stars">★★★★☆</span>
+              <span class="count">(128)</span>
+            </div>
+            <button class="add-btn">+</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="banner">
+        <div class="ban">
+          <img src="./static/Banner1.png" alt="Banner" class="banner-img">
+        </div>
+    </section>
+
+
+      <section id="power-of-botanicals" class="botanicals-section">
+        <div class="botanicals-header">
+          <h2>The Power of Botanicals</h2>
+          <p>
+            We carefully select each ingredient for its purity, efficacy, and synergy with your skin.
+          </p>
+        </div>
+      
+        <div class="botanicals-grid">
+          <!-- Card 1 -->
+          <div class="botanical-card">
+            <div class="card-image">
+              <img src="./static/rosehip.png" alt="Rosehip Oil">
+            </div>
+            <div class="card-content">
+              <h3>Rosehip Oil</h3>
+              <p>
+                Rich in vitamins A and C, rosehip oil helps brighten skin tone, reduce hyperpigmentation, 
+                and promote collagen production.
+              </p>
+              <div class="found-in">
+                <span class="checkmark">✓</span> Found in our Renewal Serum
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 2 -->
+          <div class="botanical-card">
+            <div class="card-image">
+              <img src="./static/lavender.png" alt="Lavender Extract">
+            </div>
+            <div class="card-content">
+              <h3>Lavender Extract</h3>
+              <p>
+                Known for its calming properties, lavender extract soothes irritated skin, reduces redness, 
+                and helps balance oil production.
+              </p>
+              <div class="found-in">
+                <span class="checkmark">✓</span> Found in our Dream Cream
+              </div>
+            </div>
+          </div>
+      
+          <!-- Card 3 -->
+          <div class="botanical-card">
+            <div class="card-image">
+              <img src="./static/aloevera.png" alt="Aloe Vera">
+            </div>
+            <div class="card-content">
+              <h3>Aloe Vera</h3>
+              <p>
+                A natural hydrator, aloe vera provides deep moisture while soothing inflammation and 
+                supporting skin's natural healing process.
+              </p>
+              <div class="found-in">
+                <span class="checkmark">✓</span> Found in our Cucumber Mist
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="social media">
+        <div class="instagram">
+            <!-- Elfsight Instagram Feed | Untitled Instagram Feed -->
+            <script src="https://elfsightcdn.com/platform.js" async></script>
+            <div class="elfsight-app-703960b1-08e5-4a47-a813-57400d7cae5b" data-elfsight-app-lazy></div>
+        </div>
+      </section>
+
+
+
+    <section class="newsletter">
+        <div class="titlenl">
+            <h2>Join Our Nurturing Circle</h2>
+            <p>Subscribe for botanical wisdom, self-care inspiration, and exclusive offers delivered <br> to your inbox. </p>
+            <input type="email" name="user_email" id="user_email">
+            <button class="submit">Submit</button>
+            <p>We respect your privacy and will never share your information.</p>
+        </div>
+    </section>
+
+    <section id="footer">
+    <footer class="footer">
+        <div class="footer-container">
+          <!-- Column 1 -->
+          <div class="footer-column">
+            <h3 class="footer-logo">Swan Botanicals</h3>
+            <p>Nurturing skincare inspired by nature's wisdom and a mother's love.</p>
+            <div class="social-icons">
+              <a href="http://instagram.com/swan.botanicals/"><img src="./static/insta.jpeg" alt="Instagram"></a>
+              <a href="https://www.amazon.in/stores/SwanBotanicals/page/48098F35-7932-4183-ADDA-89A90150DCE2?
+              is_byline_deeplink=true&deeplink=30343554-450B-4C6D-8E8E-5983BE025BB3&redirect_store_id=48098F35-7932-
+              4183-ADDA-89A90150DCE2&lp_asin=B0DNSSMJ6X&ref_=
+              ast_bln"><img src="./static/amazon.png" alt="Amazon"></a>
+            </div>
+          </div>
+      
+          <!-- Column 2 -->
+          <div class="footer-column">
+            <h4>Shop</h4>
+            <ul>
+              <li><a href="#">All Products</a></li>
+              <li><a href="#">Bestsellers</a></li>
+              <li><a href="#">New Arrivals</a></li>
+              <li><a href="#">Gift Sets</a></li>
+              <li><a href="#">Skincare Quiz</a></li>
+            </ul>
+          </div>
+      
+          <!-- Column 3 -->
+          <div class="footer-column">
+            <h4>About</h4>
+            <ul>
+              <li><a href="#">Our Story</a></li>
+              <li><a href="#">Ingredients</a></li>
+              <li><a href="#">Sustainability</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </div>
+      
+          <!-- Column 4 -->
+          <div class="footer-column">
+            <h4>Customer Care</h4>
+            <ul>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Shipping & Returns</a></li>
+              <li><a href="#">Track Order</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+        </div>    
+        <hr>     
+        <div class="footer-bottom">
+          <p>© 2025 Swan Botanicals. All rights reserved.</p>
+        </div>
+      </footer>
+      </section>
+      
+
+</body>
+</html>
